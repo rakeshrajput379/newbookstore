@@ -1,0 +1,1 @@
+insert into book(id,title,description,release_year) values ('4ba571dc-f59d-4ab7-9807-ea7fac26c5de','Test','Test Description',2018)
