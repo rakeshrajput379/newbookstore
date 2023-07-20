@@ -37,7 +37,7 @@ jobs:
     - name: Build and push
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: rakeshrajput379/newbookstore:tagname
+        image: rakeshrajput379/newbookstore
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
