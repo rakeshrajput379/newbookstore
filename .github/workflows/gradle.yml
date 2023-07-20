@@ -39,6 +39,7 @@ jobs:
       with:
         image: rakeshrajput379/newbookstore
         tags: latest
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}

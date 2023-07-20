@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8080
 ADD target/newbookstore.jar newbookstore.jar
-ENTRYPOINT ["java","-jar","/newbookstore.jar"]
+EXPOSE 8081
+ENTRYPOINT ["sh", "-c", "java ${JAVA_OPTS} -jar newbookstore-0.0.1.jar"]
