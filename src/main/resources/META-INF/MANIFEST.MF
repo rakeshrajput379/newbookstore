@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Main-Class: com.bookstore.newbookstore.NewbookstoreApplication
+Class-Path: jakarta.xml.bind-api-4.0.0.jar jakarta.persistence-api-3.1.0
+ .jar tomcat-embed-core-10.1.10.jar jakarta.annotation-api-2.1.1.jar spr
+ ing-boot-3.1.1.jar micrometer-commons-1.11.1.jar spring-boot-starter-we
+ b-3.1.1.jar spring-tx-6.0.10.jar HikariCP-5.0.1.jar spring-boot-starter
+ -json-3.1.1.jar spring-data-commons-3.1.1.jar jackson-annotations-2.15.
+ 2.jar logback-classic-1.4.8.jar h2-2.1.214.jar txw2-4.0.3.jar spring-or
+ m-6.0.10.jar spring-core-6.0.10.jar jaxb-core-4.0.3.jar jakarta.transac
+ tion-api-2.0.1.jar tomcat-embed-el-10.1.10.jar jboss-logging-3.5.1.Fina
+ l.jar spring-boot-starter-data-jpa-3.1.1.jar spring-boot-starter-loggin
+ g-3.1.1.jar slf4j-api-2.0.7.jar spring-jcl-6.0.10.jar flyway-core-9.16.
+ 0.jar spring-expression-6.0.10.jar spring-boot-starter-tomcat-3.1.1.jar
+  logback-core-1.4.8.jar spring-boot-starter-jdbc-3.1.1.jar jackson-modu
+ le-parameter-names-2.15.2.jar spring-context-6.0.10.jar spring-web-6.0.
+ 10.jar hibernate-core-6.2.5.Final.jar spring-webmvc-6.0.10.jar antlr4-r
+ untime-4.10.1.jar snakeyaml-1.33.jar spring-jdbc-6.0.10.jar spring-boot
+ -devtools-3.1.1.jar spring-aspects-6.0.10.jar jackson-core-2.15.2.jar s
+ pring-data-jpa-3.1.1.jar spring-boot-starter-aop-3.1.1.jar jackson-data
+ bind-2.15.2.jar jul-to-slf4j-2.0.7.jar spring-boot-starter-3.1.1.jar mi
+ crometer-observation-1.11.1.jar istack-commons-runtime-4.1.2.jar jakart
+ a.activation-api-2.1.2.jar spring-beans-6.0.10.jar jackson-dataformat-t
+ oml-2.15.2.jar spring-boot-autoconfigure-3.1.1.jar jaxb-runtime-4.0.3.j
+ ar log4j-api-2.20.0.jar jandex-3.0.5.jar byte-buddy-1.14.5.jar tomcat-e
+ mbed-websocket-10.1.10.jar spring-aop-6.0.10.jar hibernate-commons-anno
+ tations-6.0.6.Final.jar classmate-1.5.1.jar angus-activation-2.0.1.jar 
+ jackson-datatype-jdk8-2.15.2.jar log4j-to-slf4j-2.20.0.jar jackson-data
+ type-jsr310-2.15.2.jar jakarta.inject-api-2.0.1.jar aspectjweaver-1.9.1
+ 9.jar
+
