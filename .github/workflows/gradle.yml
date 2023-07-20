@@ -35,7 +35,7 @@ jobs:
       with:
         arguments: build
     - name: Build and push
-      uses: docker/build-push-action@v4
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: rakeshrajput379/newbookstore:tagname
         tags: latest
