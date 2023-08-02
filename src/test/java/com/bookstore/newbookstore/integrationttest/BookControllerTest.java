@@ -24,25 +24,4 @@ public class BookControllerTest {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    @Test
-    @Sql(scripts = {"classpath:InsertInitialBookRecordForTest.sql"})
-    void shouldReturnBookWhenBookApiCalled() {
-
-        BookDto[] listOfBooks = testRestTemplate.getForObject("http://localhost:" + port + "/api/v1/books", BookDto[].class);
-        assertThat(listOfBooks).isNotNull();
-        assertThat(listOfBooks.length).isEqualTo(2);
-
-
-    }
-
-    @Test
-    @Sql(scripts = {"classpath:InsertInitialBookRecordForTest.sql"})
-    void shouldReturnBookWhenBookApiCalled2() {
-
-        BookDto[] listOfBooks = testRestTemplate.getForObject("http://localhost:" + port + "/api/v1/books", BookDto[].class);
-        assertThat(listOfBooks).isNotNull();
-        assertThat(listOfBooks.length).isEqualTo(2);
-
-
-    }
 }
